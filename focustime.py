@@ -2,7 +2,7 @@ import time
 from playsound import playsound
 
 def focus_timer(duration):
-    print("开始专注工作！")
+    print("开始专注工作！加油！")
     time.sleep(duration)  # 按指定时间段延时
     playsound('path/to/alert_sound.mp3')  # 播放提醒音频
     print("时间到！结束专注。")
